@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Style in same file CSS Selectors Example</title>
+        <style>
+            /*Element Selector*/
+            body{
+                font-family: Arial,Sans-serif;
+                background-color: #f4f4f9;
+                color: #333;
+            }
+            /*class selector*/
+            .button{
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .button:hover{
+                background-color: #45a049;
+            }
+            /*ID <selector*/
+            #footer{
+                text-align: center;
+                padding: 10px;
+                background-color: #333;
+                color: white;
+                position: fixed;
+                width: 100%;
+                bottom: 0%
+            }
+            /*Universal Selector*/
+            *{
+                box-sizing: border-box;
+            }
+            /*Attribute Selector*/
+            input[type="email"]{
+                padding: 8px;
+                width: 100%;
+                margin-top: 10px;
+                border: 2px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Learn CSS Selectors!</h1>
+        <p>This is a simple sample example to demonstrate how CSS Selectors work.</p>
+        <button class = "button"> Click Me! </button>
+        <form>
+            <input type = "email" placeholder = "Enter your email">
+        </form>
+        <div id="footer">
+            <p>&copy;2025 My Website</p>
+        </div>
+    </body>
+</html>

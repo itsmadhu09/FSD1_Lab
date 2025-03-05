@@ -1,0 +1,30 @@
+/* Element Selector */
+h1 {
+  color: rgb(4, 4, 105);
+}
+
+/* Class Selector */
+.highlight {
+  background-color: rgb(16, 196, 25);
+  font-weight: bold;
+}
+
+/* ID Selector */
+#header {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+  border: 2px solid black;
+  padding: 5px;
+  margin-top: 10px;
+}
