@@ -7,5 +7,3 @@ def print_pattern(n):
       else:
         print(j, end=" ")
     print()
-
-print_pattern(4)
